@@ -4,14 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodegaVinos", "BodegaVinos.csproj", "{6E80EC86-6844-4329-AE89-3F893F522E0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{277A6A81-354F-4ACC-8418-E96A18DB4052} = {277A6A81-354F-4ACC-8418-E96A18DB4052}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{277A6A81-354F-4ACC-8418-E96A18DB4052}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{32D0DE83-80CC-4DF5-BA35-2422AC6434EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{51E02138-00D1-4166-8C53-DD4AFB0167BB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\API\API.csproj", "{CC6D60F5-CF40-4321-A8CF-6F9C1B1E99DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dtos", "..\Dtos\Dtos.csproj", "{F7521967-01ED-4EE5-BC18-37E1022FA5AA}"
 EndProject
@@ -37,10 +38,6 @@ Global
 		{51E02138-00D1-4166-8C53-DD4AFB0167BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E02138-00D1-4166-8C53-DD4AFB0167BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51E02138-00D1-4166-8C53-DD4AFB0167BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC6D60F5-CF40-4321-A8CF-6F9C1B1E99DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC6D60F5-CF40-4321-A8CF-6F9C1B1E99DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC6D60F5-CF40-4321-A8CF-6F9C1B1E99DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC6D60F5-CF40-4321-A8CF-6F9C1B1E99DC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F7521967-01ED-4EE5-BC18-37E1022FA5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F7521967-01ED-4EE5-BC18-37E1022FA5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7521967-01ED-4EE5-BC18-37E1022FA5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
